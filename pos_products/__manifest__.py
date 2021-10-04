@@ -5,8 +5,10 @@
     'category': 'Inventory',
     'summary': 'The specific and easy-to-use system in Odoo allows addons features on the web.',
     'description': """ The specific and easy-to-use system in Odoo allows addons features on the web. """,
-    'depends': ['product'],
-    'data': ['views/product_template_form_inherited.xml'],
+    'depends': ['base','product'],
+    'data': [
+        'views/product_template_form_inherited.xml'
+    ],
     'installable': True,
     'auto_install': False
 }

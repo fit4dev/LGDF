@@ -9,4 +9,4 @@ class ProductTemplate(models.Model):
     product_margin = fields.Float(string='Margin', compute='_compute_product_margin')
 
     def _compute_product_margin(self):
-        self.product_margin = self.list_price - self.standard_price
+        self.product_margin = ((self.list_price - self.standard_price) / self.standard_price)
