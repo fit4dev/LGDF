@@ -12,7 +12,10 @@
     ],
     'data': [
         'views/product_template_form_inherited.xml',
-        'views/view_report_pos_order_pivot_inherited.xml'
+        'views/view_report_pos_order_pivot_inherited.xml',
+    ],
+    'qweb': [
+        'static/src/xml/Screens/ReceiptScreen/OrderReceiptExtended.xml'
     ],
     'installable': True,
     'auto_install': False
