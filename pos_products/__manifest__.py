@@ -18,5 +18,6 @@
         'static/src/xml/Screens/ReceiptScreen/OrderReceiptExtended.xml'
     ],
     'installable': True,
+    'application': True,
     'auto_install': False
 }
